@@ -141,6 +141,7 @@ html, body{
     color: #8a8a8a;
     font-size: 16px;
     position: relative;
+    display: block;
 }
 
 .about-top p::after,
@@ -209,7 +210,7 @@ html, body{
 
 .card-list{
     display: flex;
-    gap: 30px;
+    gap: 50px;
     justify-content: center;
     align-items: center;
     height: 60vh;
@@ -228,14 +229,10 @@ html, body{
     transform: scale(1.1);
 }
 
-.card:hover img{
-    transform: rotate(360deg);
-}
-
 .card img{
-    width: 260px;
+    width: 200px;
     transition: all 1s;
-    height: 260px;
+    height: 200px;
 }
 
 .card-body h2{
@@ -261,8 +258,10 @@ html, body{
 }
 
 .card-body > button:hover {
-    background-color: #42c7ec;
-    transform: translateY(1);
+    /* background-color: #42c7ec;
+    transform: translateY(1); */
+    box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #25cffe 0 -3px 0 inset;
+    transform: translateY(-2px);
   }
 
 
