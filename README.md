@@ -12,7 +12,7 @@ This project is a simple yet powerful TODO list application designed to help you
 
 ## Screenshot:
 
-![Start](./Task%202/images/snapshot.png)
+![Start](./Task%202/images/screenshot.png)
 
 # Task 3 - coming soon 
 
